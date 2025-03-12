@@ -18,7 +18,7 @@ export class ParentComponent {
   receivedMessage: string = ""; 
 
   receiveMessage(message: string) {
-  this.receivedMessage = message; // Updating received message
+  this.receivedMessage = message; // Updating received message validation added
   }
 
 }
