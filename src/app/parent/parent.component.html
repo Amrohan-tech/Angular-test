@@ -1,0 +1,7 @@
+<hr>
+<h2>Parent Component</h2>
+<button (click)="sendMessageToChild()">Send Message to Child</button>
+<!-- <app-child ></app-child> -->
+
+<p>Message from Child: {{ receivedMessage }}</p>
+<app-child [parentMessage]="messageToChild" (messageEvent)="receiveMessage($event)"></app-child>
